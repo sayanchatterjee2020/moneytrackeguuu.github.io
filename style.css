@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1f1f1f !important;
+}
+
+.card {
+    background-color: rgba(53, 53, 54) !important;
+}
+
+/*  Button ============================================= */
+.profile-btn {
+    padding: 0.5rem 1.5rem;
+    background-color: yellowgreen;
+    font-weight: bold;
+    border: none;
+}
+
+.log-out {
+    color: rgb(68, 0, 255);
+    font-weight: bold;
+    padding: 0.5rem 1.5rem;
+    background-color: white;
+    border: 3px rgb(68, 0, 255) solid;
+}
+
+.reset-btn {
+    color: #1f1f1f;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    background-color: white;
+}
+
+.reset-btn span {
+    font-weight: bold;
+}
+
+.download-btn span {
+    font-weight: bold;
+}
+
+.download-btn {
+    border: none;
+    background-color: white;
+    color: #1f1f1f;
+    padding: 0.5rem 1.5rem;
+}
+.about-btn {
+    border: none;
+    background-color: white;
+    color: #1f1f1f;
+    padding: 0.5rem 1.5rem;
+}
+
+
+
+.add-btn {
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 1.5rem;
+    border: none;
+}
+
+.delete-btn {
+    color: white;
+    border: none;
+    background-color: transparent;
+}
+
+.delete-btn:hover {
+    color: red;
+}
+
+/*  Body ================================================= */
+input {
+    text-transform: capitalize;
+}
+
+.ballance-row {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar-brand img {
+    height: 2.5rem;
+}
+
+.navbar h5 {
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    color: rgb(100, 100, 100);
+}
+
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.display_balance {
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.display_balance h1 {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.display_balance p {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+
+}
+
+.add_balance {
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.modal-content {
+    background-color: #1f1f1f;
+}
+
+.modal-body img {
+    width: 5rem;
+    border-radius: 50%
+}
+
